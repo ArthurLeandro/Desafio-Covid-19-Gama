@@ -24,8 +24,6 @@ a:visited{
 a:link{
   color: white;
 }
-
-
 /* EndRegion */
 
 
@@ -60,9 +58,6 @@ a:link{
     font-size: 30px;
     border: 1px solid white;
     background-color: rgba(255, 255, 255, 0.4);
-    /* border-style: solid;
-    border-color: yellow; */
-    /* background-color: yellow; */
   }
   .nav-background{
     text-align: center;
@@ -174,7 +169,7 @@ a:link{
 }
 
 .footer {
-margin-top: .4em;
+  margin-top: .4em;
   text-align: center;
   background-color: var(--main-color-dark);
   padding: 5em;
@@ -182,3 +177,23 @@ margin-top: .4em;
 }
 
 /* EndRegion */
+
+/*Region Media Queries*/
+ @media only screen and (max-width: 440px) {
+      .nav-background span{  
+        padding: .1em;
+      }
+    .navbar {
+      font-size: 12px;
+    }
+    .nav-background li{
+      margin-right: 24px;
+    }
+    .footer-content{
+      font-size: 16px;
+    }
+    .contact{
+      height: 22em;
+    }
+  }
+/*Endregion*/
