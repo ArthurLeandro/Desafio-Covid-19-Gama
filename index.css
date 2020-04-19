@@ -180,9 +180,12 @@ a:link{
 
 /*Region Media Queries*/
  @media only screen and (max-width: 440px) {
-      .nav-background span{  
-        padding: .1em;
-      }
+   .nav-background span:hover {
+      font-size: 18px;
+    }
+    .nav-background span{  
+      padding: .1em;
+    }
     .navbar {
       font-size: 12px;
     }
